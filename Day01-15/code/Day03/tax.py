@@ -34,6 +34,6 @@ elif diff < 80000:
 else:
     rate = 0.45
     deduction = 13505
-tax = abs(diff * rate - deduction)
+tax = abs(diff * rate - deduction)  #abs()函数返回数字的绝对值
 print('个人所得税: ￥%.2f元' % tax)
 print('实际到手收入: ￥%.2f元' % (diff + 3500 - tax))

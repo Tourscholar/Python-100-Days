@@ -7,7 +7,7 @@ Date: 2018-02-28
 """
 from random import randint
 
-face = randint(1, 6)
+face = randint(1, 6) #randint(a,b)生成一个a到b的随机整数
 if face == 1:
     result = '唱首歌'
 elif face == 2:
