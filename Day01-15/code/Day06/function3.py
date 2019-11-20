@@ -18,10 +18,10 @@ def myfilter(mystr):
 
 # help()
 print(chr(0x9a86))
-print(hex(ord('骆')))
+print(hex(ord('骆')))       #转换一个整数对象为十六进制的字符串表示
 print(abs(-1.2345))
-print(round(-1.2345))
-print(pow(1.2345, 5))
+print(round(-1.2345))       #round返回浮点数x的四舍五入值
+print(pow(1.2345, 5))       #pow()返回x^y的值
 fruits = ['orange', 'peach', 'durian', 'watermelon']
 print(fruits[slice(1, 3)])
 fruits2 = list(filter(myfilter, fruits))
