@@ -24,6 +24,8 @@ print(round(-1.2345))       #round返回浮点数x的四舍五入值
 print(pow(1.2345, 5))       #pow()返回x^y的值
 fruits = ['orange', 'peach', 'durian', 'watermelon']
 print(fruits[slice(1, 3)])
+#slice()函数实现切片对象,slice(1, 3)截取第二个和第三个元素
 fruits2 = list(filter(myfilter, fruits))
+#filter()函数用于过滤序列,过滤掉不符合条件的元素,返回符合条件元素组成的列表
 print(fruits)
 print(fruits2)
