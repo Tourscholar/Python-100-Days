@@ -13,6 +13,7 @@ def main():
     print(stu.keys())
     print(stu.values())
     print(stu.items())
+    #items()函数以列表返回可遍历的(键,值)元组数组
     for elem in stu.items():
         print(elem)
         print(elem[0], elem[1])
@@ -20,6 +21,7 @@ def main():
         stu['age'] = 20
     print(stu)
     stu.setdefault('score', 60)
+    #setdefault()函数和get()函数类似,如果键不存在于字典中,将会添加键并将值设为默认值
     print(stu)
     stu.setdefault('score', 100)
     print(stu)
