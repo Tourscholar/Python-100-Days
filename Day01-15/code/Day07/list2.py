@@ -19,7 +19,7 @@ def main():
     fruits += ['pitaya', 'pear', 'mango']
     # 循环遍历列表元素
     for fruit in fruits:
-        #title()函数返回首字母大写
+        #title()函数返回每个单词的首字母大写版,istitle()函数返回首字母小写
         print(fruit.title(), end=' ')
     print()
     # 列表切片
