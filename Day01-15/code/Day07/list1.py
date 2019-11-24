@@ -24,12 +24,14 @@ def main():
     print(fruits)
     # 添加元素
     fruits.append('pitaya')
+    #insert()函数用于将指定对象插入列表的指定位置
     fruits.insert(0, 'banana')
     print(fruits)
     # 删除元素
     del fruits[1]
     fruits.pop()
     fruits.pop(0)
+    #remove()函数移除列表中指定的值
     fruits.remove('apple')
     print(fruits)
 
