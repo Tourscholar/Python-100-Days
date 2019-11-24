@@ -14,6 +14,7 @@ def main():
         # f.append(f[i - 1] + f[i - 2])
     for val in f:
         print(val, end=' ')
+        #print()函数结尾自带换行符,可通过设置end关键字来消除换行符
 
 
 if __name__ == '__main__':
